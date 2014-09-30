@@ -1,0 +1,19 @@
+death.attack.bolt=%1$s был поражён REther молнией.
+item.wrcbe_core:obsidianStick.name=Обсидиановая палка
+item.wrcbe_core:stoneBowl.name=Каменная миска
+item.wrcbe_core:retherPearl.name=REther жемчуг
+item.wrcbe_core:wirelessTransceiver.name=Беспроводной приёмопередатчик
+item.wrcbe_core:blazeTransceiver.name=Пламенный приёмопередатчик
+item.wrcbe_core:recieverDish.name=Миска с приёмником
+item.wrcbe_core:blazeRecieverDish.name=Миска с пламенным приёмником
+
+wrcbe_core.button.simple=Обычные
+wrcbe_core.button.advanced=Расширенные
+wrcbe_core.button.set=задать
+wrcbe_core.button.colour=Phase Shift
+wrcbe_core.button.setname=Задать имя
+wrcbe_core.button.remname=Убрать
+wrcbe_core.label.value=Значение
+wrcbe_core.label.name=Название частоты
+wrcbe_core.label.colour=Spectrum
+wrcbe_core.label.freq=Частота

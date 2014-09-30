@@ -1,0 +1,19 @@
+﻿death.attack.bolt=%1$s wurde duch einen REther-Blitz getötet.
+item.wrcbe_core:obsidianStick.name=Obsidian-Stock
+item.wrcbe_core:stoneBowl.name=Steinschüssel
+item.wrcbe_core:retherPearl.name=REtherperle
+item.wrcbe_core:wirelessTransceiver.name=Kabelloser Transceiver
+item.wrcbe_core:blazeTransceiver.name=Blaze-Transceiver
+item.wrcbe_core:recieverDish.name=Receiver-Schüssel
+item.wrcbe_core:blazeRecieverDish.name=Blaze-Receiver-Schüssel
+
+wrcbe_core.button.simple=Einfach
+wrcbe_core.button.advanced=Fortgeschritten
+wrcbe_core.button.set=Einstellen
+wrcbe_core.button.colour=Phasenschiebung
+wrcbe_core.button.setname=Namen einstellen
+wrcbe_core.button.remname=Entfernen
+wrcbe_core.label.value=Wert
+wrcbe_core.label.name=Frequenzname
+wrcbe_core.label.colour=Spektrum
+wrcbe_core.label.freq=Frequenz

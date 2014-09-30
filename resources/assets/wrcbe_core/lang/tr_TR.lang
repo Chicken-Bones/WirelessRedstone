@@ -1,0 +1,19 @@
+death.attack.bolt=%1$s was hit by REther Lightning.
+item.wrcbe_core:obsidianStick.name=Obsidyen Çubuk
+item.wrcbe_core:stoneBowl.name=Taş Kase
+item.wrcbe_core:retherPearl.name=REther İncisi
+item.wrcbe_core:wirelessTransceiver.name=Kablosuz Alıcı Verici
+item.wrcbe_core:blazeTransceiver.name=Blaze Alıcı Verici
+item.wrcbe_core:recieverDish.name=Alıcı Kasesi
+item.wrcbe_core:blazeRecieverDish.name=Blaze Alıcı Kasesi
+
+wrcbe_core.button.simple=Basit
+wrcbe_core.button.advanced=Gelişmiş
+wrcbe_core.button.set=ayarla
+wrcbe_core.button.colour=Renk Değiştir
+wrcbe_core.button.setname=Adını Değiştir
+wrcbe_core.button.remname=Sil
+wrcbe_core.label.value=Değer
+wrcbe_core.label.name=Frekans Adı
+wrcbe_core.label.colour=Renk
+wrcbe_core.label.freq=Freakans

@@ -1,0 +1,11 @@
+item.wrcbe_addons:sniffer.name=Kablosuz Ağlar
+item.wrcbe_addons:psniffer.name=Özel Ağlar
+item.wrcbe_addons:map.name=Kablosuz Harita
+item.wrcbe_addons:rep.name=REP
+item.wrcbe_addons:triangulator.name=Kablosuz Triangulator
+item.wrcbe_addons:remote.name=Uzaktan Kumanda
+item.wrcbe_addons:tracker.name=Kablosuz Takipçi
+
+wrcbe_addons.triangulator.short=Triangulator
+wrcbe_addons.remote.short=Uzak
+wrcbe_addons.tracker.short=Takipçi
