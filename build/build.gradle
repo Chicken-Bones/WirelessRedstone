@@ -82,6 +82,8 @@ processResources {
 
 version = "${project.minecraft.version}-${project.version}"
 def commonManifest = {
+    attributes 'FMLCorePlugin': 'codechicken.core.launch.DepLoader'
+    attributes 'FMLCorePluginContainsFMLMod': 'true'
     attributes 'FMLAT': 'wrcbe_at.cfg'
 }
 
