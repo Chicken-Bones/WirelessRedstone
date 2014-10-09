@@ -20,6 +20,7 @@ import codechicken.core.CommonUtils;
 import codechicken.lib.config.ConfigFile;
 import codechicken.lib.config.SimpleProperties;
 import codechicken.lib.vec.BlockCoord;
+import net.minecraft.world.World;
 
 public class SaveManager
 {    
@@ -69,9 +70,9 @@ public class SaveManager
         return managers.get(dimension);
     }
 
-    public static void reloadSave(int dimension)
+    public static void reloadSave(World world)
     {
-        managers.put(dimension, new SaveManager(dimension));
+        managers.put(CommonUtils.getDimension(world), new SaveManager(world));
     }
     
     public static void unloadSave(int dimension)
@@ -87,7 +88,7 @@ public class SaveManager
         {
             if(managers.size() == 0)//dim 0 global save stuff
             {
-                File etherdir = getEtherDir(0);
+                File etherdir = getEtherDir(CommonUtils.getSaveLocation(0));
                 File file = new File(etherdir, "fprop.dat");
                 if(!file.exists())
                     file.createNewFile();
@@ -111,13 +112,13 @@ public class SaveManager
         }
     }
     
-    private SaveManager(int dimension)
+    private SaveManager(World world)
     {        
         try
         {
-            this.dimension = dimension;
+            dimension = CommonUtils.getDimension(world);
             
-            File etherdir = getEtherDir(dimension);
+            File etherdir = getEtherDir(CommonUtils.getSaveLocation(world));
             File file = new File(etherdir, "fmap.dat");
             boolean newlycreated = false;
             if(!file.exists())
@@ -146,9 +147,9 @@ public class SaveManager
         }
     }
 
-    private static File getEtherDir(int dimension)
+    private static File getEtherDir(File worldsave)
     {        
-        File dir = new File(CommonUtils.getSaveLocation(dimension), "RedstoneEther");
+        File dir = new File(worldsave, "RedstoneEther");
         if(!dir.exists())
             dir.mkdirs();
         return dir;

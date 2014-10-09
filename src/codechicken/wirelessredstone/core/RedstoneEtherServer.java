@@ -50,7 +50,7 @@ public class RedstoneEtherServer extends RedstoneEther
         
         super.addEther(world, dimension);
         
-        SaveManager.reloadSave(dimension);
+        SaveManager.reloadSave(world);
         SaveManager.getInstance(dimension).loadEther();
     }
 
