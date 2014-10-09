@@ -4,7 +4,7 @@
   "name": "WR-CBE Core",
   "description": "Wireless Redstone ChickenBones Edition Core API
 
-Supporters:",
+Supporters: Vizerei",
   "version": "${version}",
   "mcversion": "${mc_version}",
   "url": "http://www.minecraftforum.net/topic/909223",
@@ -16,7 +16,7 @@ Supporters:",
   "name": "WR-CBE Addons",
   "description": "Various wireless gadgets to play with!
 
-Supporters:",
+Supporters: Vizerei",
   "version": "${version}",
   "mcversion": "${mc_version}",
   "url": "http://www.minecraftforum.net/topic/909223",
@@ -28,7 +28,7 @@ Supporters:",
   "name": "WR-CBE Logic",
   "description": "Transmitter, Receiver and Jammer blocks. Integrated with ForgeMultipart for covers and other cool stuff
 
-Supporters:",
+Supporters: Vizerei",
   "version": "${version}",
   "mcversion": "${mc_version}",
   "url": "http://www.minecraftforum.net/topic/909223",

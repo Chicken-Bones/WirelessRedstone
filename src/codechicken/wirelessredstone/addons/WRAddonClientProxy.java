@@ -1,5 +1,6 @@
 package codechicken.wirelessredstone.addons;
 
+import codechicken.core.ClientUtils;
 import codechicken.wirelessredstone.core.SaveManager;
 import codechicken.wirelessredstone.core.WRCoreCPH;
 import cpw.mods.fml.client.registry.RenderingRegistry;
@@ -15,6 +16,7 @@ public class WRAddonClientProxy extends WRAddonProxy
     @Override
     public void init() {
         super.init();
+        ClientUtils.enhanceSupportersList("WR-CBE|Addons");
 
         WRCoreCPH.delegates.add(new WRAddonCPH());
 
