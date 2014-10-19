@@ -1,0 +1,12 @@
+item.wrcbe_addons:sniffer.name=Bezdrátový zachycovač Sniffer
+item.wrcbe_addons:psniffer.name=Soukromý zachycovač
+item.wrcbe_addons:empty_map.name=Prázdná bezdrátová mapa
+item.wrcbe_addons:map.name=Bezdrátová mapa
+item.wrcbe_addons:rep.name=REP
+item.wrcbe_addons:triangulator.name=Bezdrátový triangulátor
+item.wrcbe_addons:remote.name=Bezdrátový ovladač
+item.wrcbe_addons:tracker.name=Bezdrátový sledovač
+
+wrcbe_addons.triangulator.short=Triangulátor
+wrcbe_addons.remote.short=Ovladač
+wrcbe_addons.tracker.short=Sledovač

@@ -1,0 +1,97 @@
+death.attack.bolt=%1$s byl zasáhnut REtherovým bleskem.
+item.wrcbe_core:obsidianStick.name=Obsidianová tyčka
+item.wrcbe_core:stoneBowl.name=Dřevěná miska
+item.wrcbe_core:retherPearl.name=REtherová perla
+item.wrcbe_core:wirelessTransceiver.name=Bezdrátový vysílač
+item.wrcbe_core:blazeTransceiver.name=Ohnivákový vysílač
+item.wrcbe_core:recieverDish.name=Jídlo přijímače
+item.wrcbe_core:blazeRecieverDish.name=Ohnivákovo jídlo přijímače
+
+wrcbe_core.button.simple=Jednoduchý
+wrcbe_core.button.advanced=Pokročilý
+wrcbe_core.button.set=nastav
+wrcbe_core.button.colour=Fázový posun
+wrcbe_core.button.setname=Zadej jméno
+wrcbe_core.button.remname=Odstranit
+wrcbe_core.label.value=Hodnota
+wrcbe_core.label.name=Jméno frekvence
+wrcbe_core.label.colour=Spektrum
+wrcbe_core.label.freq=Frekvence
+
+wrcbe_core.command.usage=WR-CBE REtherové řízení. Použití: freq [parametry...]
+wrcbe_core.command.usage1=parametry: %s
+wrcbe_core.command.usage2=použij /freq help [parametr] pro více informací
+
+wrcbe_core.param.invalidno=Nesprávné číslo parametrů
+wrcbe_core.param.invalid=Nesprávný parametr
+wrcbe_core.param.missing=Žádný správný parametr
+wrcbe_core.param.invalidfreq=Nesprávná frekvence
+wrcbe_core.param.invalidfreqrange=Nesprávný dosah frekvence
+
+wrcbe_core.param.get.usage=Použití: freq get [public | shared | private]
+wrcbe_core.param.get.usage1=Např. freq get public. Zobrazí dosah veřejné frekvence
+wrcbe_core.param.get.usage2=Např. freq get shared. Zobrazí dosah sdílené frekvence
+wrcbe_core.param.get.usage3=Např. freq get private. Zobrazí číslo soukromé frekvence každého hráče
+wrcbe_core.param.get.public=Frekvence 1-%d jsou veřejné
+wrcbe_core.param.get.shared=Frekvence %d-%d jsou sdílené
+wrcbe_core.param.get.shared0=Nejsou zde žádné sdílené frekvence
+wrcbe_core.param.get.private=Všichni hráči mají povolených %d soukromých frekvencí
+
+wrcbe_core.param.private.usage=Použití: freq private [parametry...]
+wrcbe_core.param.private.usage1=Např. freq private [uživatelské jméno | all]. Zobrazí soukromé frekvence ve vlastnictví [uživatelského jména]
+wrcbe_core.param.private.usage2=Např. freq private [uživatelské jméno] [frekvence]. Nastaví majitele [frekvence] jako [uživatelské jméno]
+wrcbe_core.param.private.usage3=Např. freq private [frekvence]. Zobrazí majitele [frekvence]
+wrcbe_core.param.private.usage4=Např. freq private clear [frekvence | uživatelské jméno | all]. Odebere majitele [frekvence]
+wrcbe_core.param.private.none=Nejsou zde žádné soukromé frekvence
+wrcbe_core.param.private.list=Následující frekvence jsou soukromé: %s
+wrcbe_core.param.private.ispublic=%d je veřejná
+wrcbe_core.param.private.publicanyway=%d je v každém případě veřejná
+wrcbe_core.param.private.notprivate=%d není soukromá
+wrcbe_core.param.private.noneowned=%s nevlastní žádné frekvence
+wrcbe_core.param.private.nowshared=%d není sdílená
+wrcbe_core.param.private.nowshared2=Následující frekvence jsou sdílené: %s
+wrcbe_core.param.private.ownedby=%d je vlastněna hráčem %s
+wrcbe_core.param.private.owns=%s vlastní následující frekvence: %s
+wrcbe_core.param.private.notshared=%d není ve sdíleném dosahu
+wrcbe_core.param.private.nowownedby=%d má nyní majitele %s
+wrcbe_core.param.private.limit=%s již vlastní %d frekvencí
+
+wrcbe_core.param.scan.usage=Použití: freq scan [jméno hráče]
+wrcbe_core.param.scan.usage1=Oznámí frekvence, na kterých [jméno hráče] může vysílat a vlastnit
+wrcbe_core.param.scan.usage2=Např. freq scan codechicken
+wrcbe_core.param.scan.usage3=Např. freq scan
+wrcbe_core.param.scan.list=%s může vysílat na: %s
+wrcbe_core.param.scan.onlypublic=%s může vysílat pouze na veřejných frekvencích
+
+wrcbe_core.param.set.usage=Použití: freq set [public | shared | private] [hodnota]
+wrcbe_core.param.set.usage1=Např. freq set public. Nastaví frekvenci 1 na [hodnotu] jako veřejnou
+wrcbe_core.param.set.usage2=Např. freq set shared. Nastaví frekvence [public+1] na [hodnotu] jako sdílenou
+wrcbe_core.param.set.usage3=Např. freq set private. Dá každému hráči [počet] soukromých frekvencí
+wrcbe_core.param.set.invalidnum=Nesprávné číslo
+wrcbe_core.param.set.invalidqty=Nesprávný počet
+wrcbe_core.param.set.nowpublic=%s: Frekvence 1-%d jsou nyní veřejné
+wrcbe_core.param.set.sharedpublic=%s: Sdílený frekvenční dosah byl nastaven jako veřejný
+wrcbe_core.param.set.nowshared=%s: Frekvence %d-%d jsou nyní sdílené
+wrcbe_core.param.set.sharedremoved=%s: Dosah sdílených frekvencí byl odstraněn
+wrcbe_core.param.set.privateno=%s: Všichni hráči mají nyní povoleno %d soukromých frekvencí
+
+wrcbe_core.param.jam.usage=Použití: freq jam [jméno hráče] [dosah frekvence | all | default]
+wrcbe_core.param.jam.usage1=Jam [jméno hráče] z [dosahu frekvence]
+wrcbe_core.param.jam.usage2=Např. freq %s codechicken 100-250
+wrcbe_core.param.jam.usage3=Např. freq %s codechicken all
+wrcbe_core.param.jam.usage4=Např. freq %s codechicken default
+wrcbe_core.param.jam.usage5=Např. freq %s 100-250
+wrcbe_core.param.jam.usage6=Např. freq %s codechicken 500
+wrcbe_core.param.jam.noplayer=Hráč nenalezen
+wrcbe_core.param.jam.errpublic=Nemůžeš někoho odebrat z veřejných frekvencí
+wrcbe_core.param.jam.jammed=Byl jsi odebrán z frekvence %d
+wrcbe_core.param.jam.jammed2=Byl jsi odebrán z frekvencí %s
+wrcbe_core.param.jam.opjammed=%s: %s byl odebrán z frekvence %d
+wrcbe_core.param.jam.opjammed2=%s: %s byl odebrán z frekvencí %s
+
+wrcbe_core.param.open.usage=Použití: freq open [jméno hráče] [dosah frekvence | all | default]
+wrcbe_core.param.open.usage1=Unjam [jméno hráče] z [dosahu frekvence]
+wrcbe_core.param.open.jammed=Byla ti udělena frekvence %d
+wrcbe_core.param.open.jammed2=Byli ti uděleny frekvence %s
+wrcbe_core.param.open.opjammed=%s: %s udělil frekvenci %d
+wrcbe_core.param.open.opjammed2=%s: %s udělil frekvence %s
