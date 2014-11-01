@@ -1,0 +1,12 @@
+item.wrcbe_addons:sniffer.name=Sniffer wireless
+item.wrcbe_addons:psniffer.name=Sniffer privato
+item.wrcbe_addons:empty_map.name=Mappa wireless vuota
+item.wrcbe_addons:map.name=Mappa wireless
+item.wrcbe_addons:rep.name=REP
+item.wrcbe_addons:triangulator.name=Triangolatore wireless
+item.wrcbe_addons:remote.name=Telecomando wireless
+item.wrcbe_addons:tracker.name=Tracker wireless
+
+wrcbe_addons.triangulator.short=Triangolatore
+wrcbe_addons.remote.short=Telecomando
+wrcbe_addons.tracker.short=Tracker
