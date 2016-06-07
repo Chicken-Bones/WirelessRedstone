@@ -66,7 +66,8 @@ public class WirelessMapRenderer implements IItemRenderer
     }
 
     public void renderMap(EntityPlayer player, MapData mapData, boolean inFrame) {
-        Minecraft.getMinecraft().entityRenderer.getMapItemRenderer().func_148250_a(mapData, inFrame);
+        if(mapData != null)
+            Minecraft.getMinecraft().entityRenderer.getMapItemRenderer().func_148250_a(mapData, inFrame);
 
         WirelessMapNodeStorage mapstorage = RedstoneEtherAddons.client().getMapNodes();
         Tessellator tessellator = Tessellator.instance;
